@@ -1,10 +1,10 @@
-fastapi==0.115.0
-uvicorn==0.30.6
-python-multipart==0.0.9   # file upload
-librosa==0.10.2
-numpy==1.26.4
-scipy==1.13.1
-pydub==0.25.1
-soundfile==0.12.1
-pedalboard==0.9.16        # əla mastering effektləri (EQ, compressor, limiter)
-ffmpeg-python==0.2.0      # pydub üçün
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+librosa>=0.10.2
+numpy>=1.26.4
+scipy>=1.13.0
+pydub>=0.25.1
+soundfile>=0.12.1
+pedalboard>=0.9.16
+ffmpeg-python>=0.2.0
