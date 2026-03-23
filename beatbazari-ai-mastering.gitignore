@@ -1,0 +1,105 @@
+# Python standart (GitHub-dan əsas şablon)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual mühitlər (ən vacib!)
+venv/
+env/
+ENV/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE və editorlar (VS Code, PyCharm, Sublime və s.)
+.vscode/
+.idea/
+*.swp
+*.swo
+*\~
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Test və coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs və debug
+*.log
+debug.log
+*.bak
+
+# Audio / media faylları (layihədə saxlama!)
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+uploads/
+downloads/
+temp/
+tmp/
+*.zip
+*.rar
+
+# FastAPI / Railway spesifik
+instance/
+.webassets-cache
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables və secrets (təhlükəsizlik üçün!)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.secret
+config.ini
+secrets.yaml
+
+# Dependency management (əgər poetry/pipenv istifadə edirsənsə)
+poetry.lock          # əgər poetry istifadif etmirsənsə sil
+Pipfile.lock
+
+# Nixpacks / Railway build artefaktları
+.nixpacks/
+.railway/
+
+# Digər ümumi
+Thumbs.db
+ehthumbs.db
